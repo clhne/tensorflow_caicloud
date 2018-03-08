@@ -1,0 +1,1 @@
+bazel --output_base=/home/lcl/Desktop/projects/tensorflow_caicloud/bazel_demo/hello_world build :hello_main
