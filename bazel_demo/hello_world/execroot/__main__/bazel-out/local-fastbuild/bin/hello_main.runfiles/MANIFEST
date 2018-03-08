@@ -1,0 +1,3 @@
+__main__/hello_lib.py /home/lcl/Desktop/projects/tensorflow_caicloud/bazel_demo/hello_world/hello_lib.py
+__main__/hello_main /home/lcl/Desktop/projects/tensorflow_caicloud/bazel_demo/hello_world/execroot/__main__/bazel-out/local-fastbuild/bin/hello_main
+__main__/hello_main.py /home/lcl/Desktop/projects/tensorflow_caicloud/bazel_demo/hello_world/hello_main.py

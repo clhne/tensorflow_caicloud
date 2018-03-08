@@ -1,0 +1,25 @@
+[32mINFO: [0mLoading package: 
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/cpp
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/jdk
+[1A[K[32mINFO: [0mLoading package: @local_config_xcode//
+[1A[K[32mINFO: [0mLoading package: @local_jdk//
+[1A[K[32mINFO: [0mLoading package: @local_config_cc//
+[1A[K[32mINFO: [0mLoading complete.  Analyzing...
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//platforms
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/zip
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/launcher
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/python
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/def_parser
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//src
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//src/tools/launcher
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//src/tools/launcher/util
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//src/main/cpp/util
+[1A[K[32mINFO: [0mFound 1 target...
+[32mINFO: [0mBuilding...
+[1A[K[32m[0 / 1] [0mBazelWorkspaceStatusAction stable-status.txt
+[1A[K[32m[3 / 4] [0mCreating runfiles tree bazel-out/local-fastbuild/bin/hello_main.runfil\
+es
+[1A[K[1A[K[32mINFO: [0mBuilding complete.
+[1A[KTarget //:hello_main up-to-date:
+  bazel-bin/hello_main
+[32mINFO: [0mElapsed time: 19.337s, Critical Path: 0.15s
