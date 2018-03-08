@@ -6,10 +6,16 @@
 [1A[K[32mINFO: [0mLoading package: @local_config_cc//
 [1A[K[32mINFO: [0mLoading complete.  Analyzing...
 [1A[K[32mINFO: [0mLoading package: @bazel_tools//platforms
+<<<<<<< HEAD
 [1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/zip
 [1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/launcher
 [1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/python
 [1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/def_parser
+=======
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/def_parser
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/python
+[1A[K[32mINFO: [0mLoading package: @bazel_tools//tools/launcher
+>>>>>>> 739a15398c4714f2804e3a80350734c2b0a1daa3
 [1A[K[32mINFO: [0mLoading package: @bazel_tools//src
 [1A[K[32mINFO: [0mLoading package: @bazel_tools//src/tools/launcher
 [1A[K[32mINFO: [0mLoading package: @bazel_tools//src/tools/launcher/util
@@ -17,9 +23,17 @@
 [1A[K[32mINFO: [0mFound 1 target...
 [32mINFO: [0mBuilding...
 [1A[K[32m[0 / 1] [0mBazelWorkspaceStatusAction stable-status.txt
+<<<<<<< HEAD
 [1A[K[32m[3 / 4] [0mCreating runfiles tree bazel-out/local-fastbuild/bin/hello_main.runfil\
 es
 [1A[K[1A[K[32mINFO: [0mBuilding complete.
 [1A[KTarget //:hello_main up-to-date:
   bazel-bin/hello_main
 [32mINFO: [0mElapsed time: 19.337s, Critical Path: 0.15s
+=======
+[1A[K[32m[1 / 2] [0mExpanding template hello_main
+[1A[K[32m[2 / 4] [0mCreating source manifest for //:hello_main
+[1A[KTarget //:hello_main up-to-date:
+  bazel-bin/hello_main
+[32mINFO: [0mElapsed time: 25.259s, Critical Path: 0.15s
+>>>>>>> 739a15398c4714f2804e3a80350734c2b0a1daa3

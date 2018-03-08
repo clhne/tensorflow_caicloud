@@ -1,3 +1,7 @@
 owner=launcher
+<<<<<<< HEAD
 pid=43626
+=======
+pid=41511
+>>>>>>> 739a15398c4714f2804e3a80350734c2b0a1daa3
 tty=/dev/pts/13
