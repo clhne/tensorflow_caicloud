@@ -11,3 +11,19 @@ sess.close()
 with tf.Session() as sess:
     sess.run(...)
 '''
+import tensorflow as tf
+a = tf.constant(3)
+b = tf.constant(9)
+result = a + b
+'''
+# method 1
+sess = tf.Session()
+with sess.as_default():
+    print(result.eval())
+# method 2
+sess = tf.Session()
+print(sess.run(result))
+'''
+# method 3
+sess = tf.Session()
+print(result.eval(session = sess))
