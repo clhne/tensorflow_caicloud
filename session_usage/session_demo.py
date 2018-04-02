@@ -23,7 +23,10 @@ with sess.as_default():
 # method 2
 sess = tf.Session()
 print(sess.run(result))
-'''
 # method 3
 sess = tf.Session()
 print(result.eval(session = sess))
+'''
+sess = tf.InteractiveSession()
+print(result.eval())
+sess.close()
