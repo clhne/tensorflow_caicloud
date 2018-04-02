@@ -26,7 +26,15 @@ print(sess.run(result))
 # method 3
 sess = tf.Session()
 print(result.eval(session = sess))
-'''
+# method 4
 sess = tf.InteractiveSession()
 print(result.eval())
 sess.close()
+'''
+# method 5 通过ConfigProto可以配置类似并行的线程数,GPU分配策略,运算超时时间等参数,allow_soft_placement为True,当某些运算无法被当前GPU支持时,可以自动调整到CPU上,而不是报错,log_device_placement为True时日志中将会记录每个节点被安排到哪个设备上以方便调试,而在生产环境中将这个参数设置为False可以减少日志量.
+config = tf.ConfigProto(allow_soft_placement=True,log_device_placement=True)
+sess1 = tf.InteractiveSession(config = config)
+sess2 = tf.InteractiveSession(config = config)
+print(sess1.run(result))
+print(sess2.run(result))
+
